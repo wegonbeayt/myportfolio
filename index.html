@@ -11,6 +11,41 @@
       padding: 0;
       box-sizing: border-box;
     }
+    /* General text hover effect */
+p:hover, span:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
+  color: #f5b301;
+  transition: color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.03);
+}
+
+/* Navigation links */
+nav ul li a:hover {
+  color: #f5b301;
+  border-bottom: 2px solid #f5b301;
+  padding-bottom: 0.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for all buttons */
+button:hover {
+  background-color: #ffcc00;
+  color: #1c1c1e;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+/* Portfolio item hover - already in your code but you can enhance it */
+.portfolio-item:hover {
+  transform: scale(1.05);
+  background-color: #3a3a3c;
+  transition: all 0.3s ease;
+}
+
+/* Optional: Add glow effect on hover for visual pop */
+.hover-glow:hover {
+  box-shadow: 0 0 15px #f5b301;
+  transition: box-shadow 0.4s ease;
+}
 
     body {
       font-family: 'Segoe UI', sans-serif;
